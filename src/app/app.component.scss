@@ -19,6 +19,7 @@
 // Navbar
 .navbar {
     margin-top: 32px;
+    border-bottom: 1px solid $gray-50;
 }
 
 .bg-light {
@@ -114,6 +115,8 @@
 .dropdown-menu {
     font-size: $font-size-subnormal !important;
     border: none !important;
+    border-radius: 0;
+    top: 55px;
 }
 
 li {
