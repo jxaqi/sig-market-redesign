@@ -94,6 +94,7 @@ $font-size-subnormal: 0.875rem !default; //14px
 $font-size-small: 0.75rem !default; //12px
 $font-size-big: 2rem !default; //32px
 $font-size-heading: 1.5rem !default; //24px
+$font-size-subheading: 1.25rem !default; //20px
 
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default; //roboto regular
@@ -110,8 +111,8 @@ $btn-width-xsmall: 100px !default;
 // Forms
 // form-text-variables
 $form-text-font-size: 1rem !default;
-$font-text-font-weight: $font-weight-light !default;
-$font-text-color: $gray-800 !default;
+$form-text-font-weight: $font-weight-light !default;
+$form-text-color: $gray-800 !default;
 
 // form-input-variables
 $input-border-color: $border-color !default;
@@ -126,38 +127,12 @@ $input-placeholder-color: $gray-600 !default;
 // form-validation-states
 
 
-// Navbar
-// navbar-variables
-
-// navbar-theme-variables
-
-
-// Cards
-// card-variables
-
-
-// Badges
-// badge-variables
-
-
 // Modals
 // modal-variables
 
 
 // Breadcrumbs
 // breadcrumb-variables
-
-
-// Carousel
-// carousel-variables
-
-
-// Close
-// close-variables
-
-
-// Offcanvas
-// offcanvas-variables
 
 
 // Footer

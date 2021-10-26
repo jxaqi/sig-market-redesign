@@ -1,6 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import "/src/styles/variables";
 
 * {
     font-family: "Roboto", sans-serif;
+}
+
+.divider {
+    color: $gray-300;
+    margin-top: 2rem;
 }

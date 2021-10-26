@@ -1,0 +1,75 @@
+.card {
+  border: none !important;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.card-img-top {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.card-body {
+  padding: 0 !important;
+  padding-top: 1rem !important;
+}
+
+.card-title {
+  font-weight: $font-weight-normal;
+}
+
+.card-text {
+  font-weight: $font-weight-light;
+  font-size: $font-size-subnormal;
+
+}
+
+.badge {
+  font-size: $font-size-small !important;
+  font-weight: $font-weight-light !important;
+  color: $red !important;
+}
+
+.bg-danger {
+  background-color: transparent !important;
+}
+
+// Button
+.btn {
+  font-weight: $font-weight-normal !important;
+  font-size: $font-size-subnormal !important;
+  border-radius: 0 !important;
+  width: 100%;
+  letter-spacing: 0.05rem;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  color: $green !important;
+  background-color: $white !important;
+  border-color: $green !important;
+
+  &:hover {
+    color: $white !important;
+    background-color: $green !important;
+    border-color: $green !important;
+  }
+}
+
+.disabled {
+  background-color: $green-light !important;
+  border-color: $green-light !important;
+}
+
+// Media screen
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .card {
+    width: 50%;
+  }
+}
