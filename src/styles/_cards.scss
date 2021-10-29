@@ -35,6 +35,16 @@
 }
 
 // Button
+button {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  color: $white;
+  border: none;
+  background: transparent;
+  // opacity: 50%;
+}
+
 .btn {
   font-weight: $font-weight-normal !important;
   font-size: $font-size-subnormal !important;
@@ -68,7 +78,7 @@
   }
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 767px) {
   .card {
     width: 50%;
   }
