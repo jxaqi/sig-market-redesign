@@ -2,180 +2,395 @@
 
 // Toolbar
 .toolbar {
-    // position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    background-color: $green;
-    color: white;
-    font-weight: 300;
-    justify-content: center;
-    font-size: $font-size-small;
+  // position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  background-color: $green;
+  color: white;
+  font-weight: 300;
+  justify-content: center;
+  font-size: $font-size-small;
 }
 
 // Navbar
 .navbar {
-    margin-top: 32px;
-    border-bottom: 1px solid $gray-50;
+  margin-top: 32px;
+  border-bottom: 1px solid $gray-50;
 }
 
 .bg-light {
-    background-color: $white !important;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: $white !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .navbar-brand {
-    position: absolute;
-    left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .navbar-left {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
 .nav-link {
-    color: $black !important;
+  color: $black !important;
 
-    &:hover,
-    &:focus {
-        color: $gray-700 !important;
-    }
+  &:hover,
+  &:focus {
+    color: $gray-700 !important;
+  }
 }
 
 .navbar-toggler {
-    border: none !important;
+  border: none !important;
 }
 
 .navbar-toggler:focus {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 // Search button
 .search-box {
-    position: absolute;
-    border: none;
+  position: absolute;
+  border: none;
 }
 
 .search-icon,
 .go-icon {
-    position: absolute;
-    top: 0;
-    line-height: 1.5rem;
-    border: none;
-    background: transparent;
+  position: absolute;
+  top: 0;
+  line-height: 1.5rem;
+  border: none;
+  background: transparent;
 }
 
 .search-icon {
-    left: -33px;
-    top: -2px;
+  left: -33px;
+  top: -2px;
 }
 
 .go-icon {
-    left: 180px;
-    cursor: pointer;
-    opacity: 0;
-    top: -2px;
-    transform: rotate(45deg);
-    transition: opacity 190ms ease-out, transform 260ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  left: 180px;
+  cursor: pointer;
+  opacity: 0;
+  top: -2px;
+  transform: rotate(45deg);
+  transition: opacity 190ms ease-out,
+    transform 260ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .go-in {
-    opacity: 1;
-    pointer-events: all;
-    cursor: pointer;
-    transform: rotate(0);
-    transition: opacity 190ms ease-out, transform 260ms 20ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+  opacity: 1;
+  pointer-events: all;
+  cursor: pointer;
+  transform: rotate(0);
+  transition: opacity 190ms ease-out,
+    transform 260ms 20ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 #input-search {
-    background: transparent;
-    color: $gray-700;
-    font-size: $font-size-small;
-    font-weight: $font-weight-light;
-    letter-spacing: 0.1rem;
-    width: 180px;
-    border: none;
-    outline: none;
+  background: transparent;
+  color: $gray-700;
+  font-size: $font-size-small;
+  font-weight: $font-weight-light;
+  letter-spacing: 0.1rem;
+  width: 180px;
+  border: none;
+  outline: none;
 
-    &::placeholder {
-        color: $gray-500;
-    }
+  &::placeholder {
+    color: $gray-500;
+  }
 
-    &:focus {
-        border-bottom: 1px solid $black;
-    }
+  &:focus {
+    border-bottom: 1px solid $black;
+  }
 }
 
 // Navbar dropdown
 .dropdown-menu {
-    font-size: $font-size-subnormal !important;
-    border: none !important;
-    border-radius: 0;
-    top: 55px;
+  font-size: $font-size-subnormal !important;
+  border: none !important;
+  border-radius: 0;
+  top: 55px;
 }
 
 li {
-    list-style: none !important;
+  list-style: none !important;
 }
 
 .dropdown-item {
-    font-weight: $font-weight-light !important;
+  font-weight: $font-weight-light !important;
 }
 
 .dropdown-title {
-    font-weight: $font-weight-normal !important;
+  font-weight: $font-weight-normal !important;
 }
 
 .submenu {
-    padding-left: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+// Shopping cart empty
+// .center {
+//   margin: 0 auto;
+// }
+
+// .divider-small {
+//   width: 80%;
+//   margin: 0 auto;
+//   color: $gray-300;
+// }
+
+// .offcanvas-heading {
+//   font-weight: $font-size-normal;
+// }
+
+// .offcanvas-text {
+//   font-weight: $font-weight-light;
+//   font-size: $font-size-subnormal;
+//   margin-top: 4rem;
+//   text-align: center;
+// }
+
+// .cart-button {
+//   margin-top: 4rem;
+//   text-align: center;
+// }
+
+// .btn {
+//   font-size: $font-size-subnormal;
+//   border-radius: 0;
+//   width: 300px;
+// }
+
+// .btn-dark {
+//   background-color: $black;
+//   border-color: $black;
+
+//   &:hover {
+//     background-color: $gray-800;
+//     border-color: $gray-800;
+//   }
+
+//   &:focus {
+//     background-color: $black;
+//     border-color: $black;
+//     box-shadow: none;
+//   }
+// }
+
+// Shopping cart
+.center {
+  margin: 0 auto;
+}
+
+.divider-small {
+  width: 91.5%;
+  margin: 0 auto;
+  color: $gray-300;
+}
+
+.offcanvas-heading {
+  font-weight: $font-size-normal;
+}
+
+.card {
+  border: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding-top: 1.4rem;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: $font-size-subnormal;
+  font-weight: $font-weight-light;
+  margin-bottom: 0.5rem;
+}
+
+small {
+  position: absolute;
+  right: 3%;
+  bottom: 10%;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: $gray-500 !important;
+  font-size: $font-size-small;
+  font-weight: $font-weight-light;
+  text-decoration: underline;
+}
+
+.btn {
+  border-radius: 0;
+
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.btn-light {
+  color: #000;
+  background-color: $white;
+  border-color: $gray-100;
+
+  &:hover {
+    color: #000;
+    background-color: $gray-100;
+    border-color: $gray-100;
+  }
+
+  &:focus {
+    color: #000;
+    background-color: $white;
+    border-color: $gray-100;
+    box-shadow: none;
+  }
+}
+
+.right {
+  border-left: none;
+}
+
+.subtotal {
+  margin: 1.25rem 0;
+
+  > .right {
+    text-align: right;
+  }
+}
+
+.button {
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.btn-dark {
+  background-color: $black;
+  border-color: $black;
+  width: 170px;
+
+  &:hover {
+    background-color: $white;
+    border-color: $black;
+    color: $black;
+  }
+
+  &:focus {
+    background-color: $black;
+    border-color: $black;
+    box-shadow: none;
+    color: $white;
+  }
+}
+
+.outline {
+  background-color: $white;
+  border-color: $black;
+  color: $black;
+
+  &:hover {
+    background-color: $black;
+    border-color: $black;
+    color: $white;
+  }
+
+  &:focus {
+    background-color: $white;
+    border-color: $black;
+    box-shadow: none;
+    color: $black;
+  }
+}
+
+.info {
+    font-size: $font-size-small;
+    margin-top: 1rem;
+    text-align: center;
 }
 
 // Media screen
 @media only screen and (min-width: 992px) {
-    .navbar-left {
-        flex-wrap: wrap !important;
-        margin-left: -15px;
-        margin-right: -15px;
-    }
+  .navbar-left {
+    flex-wrap: wrap !important;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
 
-    .navbar-right {
-        display: flex;
-        align-items: center;
-        margin-left: auto;
-        flex-wrap: wrap;
-    } 
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    flex-wrap: wrap;
+  }
 
-    .search-box {
-        left: 65%;
-    }
+  .search-box {
+    left: 65%;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .search-box {
+    left: 68%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-    .search-box {
-        left: 71%;
-    }
+  .search-box {
+    left: 71%;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
-    .search-box {
-        left: 75%;
-    }
+  .search-box {
+    left: 75%;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-    .navbar-right {
-        display: flex;
-        margin-left: auto;
-        flex-wrap: wrap;
-        padding-left: 15px;
-    }
+  .navbar-right {
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+    padding-left: 15px;
+  }
 
-    .search-box {
-        right: 50px;
-    }
+  .search-box {
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  small {
+    position: absolute;
+    right: 4%;
+    bottom: 2.5%;
+  }
+}
+
+@media only screen and (max-width: 396px) {
+  .btn-dark {
+    width: 155px;
+  }
+}
+
+@media only screen and (max-width: 366px) {
+  .btn-dark {
+    width: 100%;
+  }
 }

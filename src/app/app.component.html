@@ -109,7 +109,8 @@
         </ul>
         <ul class="navbar-nav navbar-right">
           <li class="nav-item">
-            <a class="nav-link" href="#">CART</a>
+            <a class="nav-link" role="button" data-bs-toggle="offcanvas" aria-controls="offcanvasRight"
+              href="#offcanvasRight">CART</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">LOGIN</a>
@@ -119,6 +120,95 @@
     </div>
   </div>
 </nav>
+
+<!-- Empty cart -->
+<!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <p id="offcanvasRightLabel" class="center offcanvas-heading">Your Cart</p>
+  </div>
+  <hr class="divider-small">
+  <div class="offcanvas-body">
+    <div class="offcanvas-text">
+      Your cart is currently empty.
+    </div>
+    <div class="cart-button">
+      <button type="button" class="btn btn-dark">Continue Shopping</button>
+    </div>
+  </div>
+</div> -->
+
+<!-- Cart -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <p id="offcanvasRightLabel" class="center offcanvas-heading">Your Cart</p>
+  </div>
+  <hr class="divider-small">
+  <div class="offcanvas-body">
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-3 col-sm-3">
+          <img src="assets/breakfast_muesli.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-9 col-sm-9">
+          <div class="card-body">
+            <p class="card-title">Shizuoka Houjicha Milk Spread</p>
+            <p class="card-text price">RM 11.00</p>
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="btn-group me-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-light"><i class="bi bi-dash"></i></button>
+                <button type="button" class="btn btn-light right">1</button>
+                <button type="button" class="btn btn-light right"><i class="bi bi-plus"></i></button>
+              </div>
+            </div>
+            <p class="card-text"><small class="text-muted">Remove</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-3 col-sm-3">
+          <img src="assets/breakfast_muesli.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-9 col-sm-9">
+          <div class="card-body">
+            <p class="card-title">Breakfast Muesli</p>
+            <p class="card-text price">RM 9.90</p>
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+              <div class="btn-group me-2" role="group" aria-label="Second group">
+                <button type="button" class="btn btn-light"><i class="bi bi-dash"></i></button>
+                <button type="button" class="btn btn-light right">1</button>
+                <button type="button" class="btn btn-light right"><i class="bi bi-plus"></i></button>
+              </div>
+            </div>
+            <p class="card-text"><small class="text-muted">Remove</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="divider-small" style="width: 99.5%;">
+    <div class="row align-items-center subtotal">
+      <div class="col-6" style="font-size: 0.875rem;">
+        Subtotal
+      </div>
+      <div class="col-6 right" style="font-size: 1.125rem;">
+        RM 20.90
+      </div>
+    </div>
+    <hr class="divider-small" style="width: 99.5%;">
+    <div class="row button">
+      <div class="col">
+        <button type="button" class="btn btn-dark outline">View Cart</button>
+      </div>
+      <div class="col">
+        <button type="button" class="btn btn-dark">Checkout</button>
+      </div>
+    </div>
+    <div>
+      <p class="info">Shipping &amp; discounts calculated at the checkout</p>
+    </div>
+  </div>
+</div>
 
 <app-carousel></app-carousel>
 <app-monthly-exclusive></app-monthly-exclusive>
