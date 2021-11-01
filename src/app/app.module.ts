@@ -7,6 +7,7 @@ import { MonthlyExclusiveComponent } from './monthly-exclusive/monthly-exclusive
 import { BestSellerComponent } from './best-seller/best-seller.component';
 import { CommunityComponent } from './community/community.component';
 import { FooterComponent } from './footer/footer.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     MonthlyExclusiveComponent,
     BestSellerComponent,
     CommunityComponent,
-    FooterComponent
+    FooterComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule

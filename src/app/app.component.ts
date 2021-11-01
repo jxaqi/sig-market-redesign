@@ -12,6 +12,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     $(document).ready(function() {
+      $("#myModal").modal("show");
       $("#input-search").keyup(function() {
         if ($("#input-search").val().length > 0) {
           $(".go-icon").addClass("go-in");
