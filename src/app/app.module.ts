@@ -8,6 +8,9 @@ import { BestSellerComponent } from './best-seller/best-seller.component';
 import { CommunityComponent } from './community/community.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModalComponent } from './modal/modal.component';
+import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +20,13 @@ import { ModalComponent } from './modal/modal.component';
     BestSellerComponent,
     CommunityComponent,
     FooterComponent,
-    ModalComponent
+    ModalComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
