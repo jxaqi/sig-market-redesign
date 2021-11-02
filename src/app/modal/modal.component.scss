@@ -87,6 +87,10 @@
   border-top: none;
 }
 
+form {
+  margin: 0 auto;
+}
+
 .form-control {
   font-size: $font-size-subnormal;
   font-weight: $font-weight-light;
@@ -96,7 +100,6 @@
   border-radius: 0;
   letter-spacing: 0.05rem;
   width: 350px;
-  margin-left: 4.3rem;
 
   &:focus {
     color: $gray-800;
@@ -115,7 +118,6 @@
   border-radius: 0;
   letter-spacing: 0.05rem;
   width: 350px;
-  margin-left: 4.3rem;
 }
 
 .btn-primary {
