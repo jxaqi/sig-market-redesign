@@ -23,6 +23,9 @@ export class AppComponent implements OnInit {
       $(".go-icon").click(function() {
         $(".search-form").submit();
       });
+      $("#view-cart").click(function() {
+        $(".offcanvas-end").toggle();
+      });
     });
   }
 }

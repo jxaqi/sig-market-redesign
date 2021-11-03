@@ -10,7 +10,7 @@
       aria-controls="offcanvasExample">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="" width="155" height="32"></a>
+    <a class="navbar-brand" href="/"><img src="assets/logo.png" alt="" width="155" height="32"></a>
     <div class="search-box">
       <button class="search-icon"><i class="bi bi-search"></i></button>
       <form action="" class="search-form">
@@ -101,10 +101,10 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">BLOG</a>
+            <a class="nav-link" routerLink="/blog">BLOG</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" routerLink="/about-us">ABOUT</a>
           </li>
         </ul>
         <ul class="navbar-nav navbar-right">
@@ -147,7 +147,7 @@
     <div class="card mb-3">
       <div class="row g-0">
         <div class="col-md-3 col-sm-3">
-          <img src="assets/breakfast_muesli.jpg" class="img-fluid" alt="">
+          <img src="assets/black_sesame_spread.jpeg" class="img-fluid" alt="">
         </div>
         <div class="col-md-9 col-sm-9">
           <div class="card-body">
@@ -198,7 +198,7 @@
     <hr class="divider-small" style="width: 99.5%;">
     <div class="row button">
       <div class="col">
-        <button type="button" class="btn btn-dark outline">View Cart</button>
+        <button type="button" class="btn btn-dark outline" id="view-cart" routerLink="/cart">View Cart</button>
       </div>
       <div class="col">
         <button type="button" class="btn btn-dark">Checkout</button>

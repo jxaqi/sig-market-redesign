@@ -1,0 +1,39 @@
+@import "/src/styles/variables";
+
+// Breadcrumb
+nav {
+  margin: 112px 0 0 32px;
+  font-size: $font-size-subnormal;
+}
+
+.breadcrumb-item {
+  &.active {
+    color: $gray-600;
+  }
+
+  a {
+    color: $black;
+
+    &:hover {
+      color: $gray-800;
+    }
+  }
+}
+
+h4 {
+  margin-top: 24px;
+}
+
+// Content
+.card {
+  border: none;
+}
+
+.card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.card-text {
+  font-weight: $font-weight-light;
+}

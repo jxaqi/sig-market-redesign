@@ -62,6 +62,15 @@ $greens: (
     "green-dark": $green-dark,
 ) !default;
 
+// blue color
+$blue-normal: $blue !default;
+$blue-dark: #374b96 !default;
+
+$blues: (
+    "blue-normal": $blue,
+    "blue-dark": $blue-dark,
+) !default;
+
 
 // Links
 $link-color: $blue !default;
