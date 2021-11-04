@@ -16,6 +16,11 @@ import { CartComponent } from './cart/cart.component';
 import { BlogComponent } from './blog/blog.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { SpreadComponent } from './spread/spread.component';
+import { NutComponent } from './nut/nut.component';
+import { BeverageComponent } from './beverage/beverage.component';
+import { GranolaComponent } from './granola/granola.component';
+import { InstantMealsComponent } from './instant-meals/instant-meals.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { AboutUsComponent } from './about-us/about-us.component';
     CartComponent,
     BlogComponent,
     BlogDetailComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    SpreadComponent,
+    NutComponent,
+    BeverageComponent,
+    GranolaComponent,
+    InstantMealsComponent
   ],
   imports: [
     BrowserModule,

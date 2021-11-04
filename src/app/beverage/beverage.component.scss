@@ -1,0 +1,26 @@
+@import "/src/styles/variables";
+@import "/src/styles/cards";
+
+// Breadcrumb
+nav {
+  margin: 112px 0 0 32px;
+  font-size: $font-size-subnormal;
+}
+
+.breadcrumb-item {
+  &.active {
+    color: $gray-600;
+  }
+
+  a {
+    color: $black;
+
+    &:hover {
+      color: $gray-800;
+    }
+  }
+}
+
+h4 {
+  margin: 1.5rem 0;
+}
