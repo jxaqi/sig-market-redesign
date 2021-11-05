@@ -1,0 +1,144 @@
+@import "/src/styles/variables";
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: 0;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: $font-size-subnormal;
+}
+
+#breadcrumb {
+  margin-bottom: 3rem;
+}
+
+.info {
+  margin-bottom: 3rem;
+}
+
+.form-control {
+  font-size: $font-size-subnormal;
+  font-weight: $font-weight-light;
+  border: 1px solid $border-color;
+
+  &:focus {
+    color: $gray-800;
+    border-color: $gray-400;
+    box-shadow: none;
+  }
+
+  &::placeholder {
+    color: $gray-500;
+    opacity: 1;
+  }
+}
+
+.form-check-input {
+  &:focus {
+    border-color: $blue-dark;
+    box-shadow: none;
+  }
+
+  &:checked {
+    background-color: $blue;
+    border-color: $blue;
+  }
+}
+
+.form-check-label {
+  font-size: $font-size-small;
+}
+
+.btn {
+  font-weight: $font-weight-light;
+  padding: 0.375rem 1rem;
+  font-size: $font-size-subnormal;
+  border-radius: 0.25rem;
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: $black;
+  border-color: $black;
+
+  &:hover {
+    color: #fff;
+    background-color: $gray-800;
+    border-color: $gray-800;
+  }
+
+  &:focus {
+    color: #fff;
+    background-color: #1c1f23;
+    border-color: #1a1e21;
+    box-shadow: none;
+  }
+}
+
+.btn-light {
+  background-color: transparent;
+  border-color: transparent;
+
+  &:focus {
+    border-color: transparent;
+    box-shadow: none;
+  }
+
+  &:hover {
+    color: $blue-dark;
+  }
+}
+
+table {
+  font-size: $font-size-subnormal;
+}
+
+.divider-card {
+  color: $gray-300;
+}
+
+.big {
+  font-size: 1rem;
+}
+
+.price {
+  font-weight: $font-weight-light;
+  font-size: $font-size-small;
+}
+
+.huge {
+  font-size: 1.5rem;
+  font-weight: $font-weight-normal;
+}
+
+// Media screen
+@media only screen and (max-width: 767px) {
+  .form {
+    margin-bottom: 1rem;
+  }
+
+  .left {
+      margin-left: 0;
+  }
+
+  .col-md-7 {
+      width: 50%;
+  }
+}

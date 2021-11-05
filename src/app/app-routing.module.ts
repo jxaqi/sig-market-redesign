@@ -5,6 +5,7 @@ import { BeverageComponent } from './beverage/beverage.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { BlogComponent } from './blog/blog.component';
 import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 import { ContactComponent } from './contact/contact.component';
 import { GranolaComponent } from './granola/granola.component';
 import { HomeComponent } from './home/home.component';
@@ -26,7 +27,8 @@ const routes: Routes = [
   { path: 'nut', component: NutComponent },
   { path: 'beverage', component: BeverageComponent },
   { path: 'granola', component: GranolaComponent },
-  { path: 'instant-meals', component: InstantMealsComponent }
+  { path: 'instant-meals', component: InstantMealsComponent },
+  { path: 'checkout', component: CheckoutComponent }
 ];
 
 @NgModule({

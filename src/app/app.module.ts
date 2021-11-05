@@ -21,6 +21,7 @@ import { NutComponent } from './nut/nut.component';
 import { BeverageComponent } from './beverage/beverage.component';
 import { GranolaComponent } from './granola/granola.component';
 import { InstantMealsComponent } from './instant-meals/instant-meals.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { InstantMealsComponent } from './instant-meals/instant-meals.component';
     NutComponent,
     BeverageComponent,
     GranolaComponent,
-    InstantMealsComponent
+    InstantMealsComponent,
+    CheckoutComponent,
   ],
   imports: [
     BrowserModule,

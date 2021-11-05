@@ -26,6 +26,9 @@ export class AppComponent implements OnInit {
       $("#view-cart").click(function() {
         $(".offcanvas-end").toggle();
       });
+      $("#checkout").click(function() {
+        $(".offcanvas-end").toggle();
+      });
     });
   }
 }
