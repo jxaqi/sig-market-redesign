@@ -27,7 +27,7 @@ footer {
 h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: $font-weight-normal !important;
+  font-weight: $font-weight-normal;
   line-height: 1.2;
 }
 
@@ -39,30 +39,30 @@ p {
 
 //   Link
 .link-light {
-  color: $white !important;
+  color: $white;
   text-decoration: none;
   font-size: $font-size-subnormal;
   font-weight: $font-weight-light;
 
   &:hover,
   &:focus {
-    color: $white !important;
+    color: $white;
   }
 }
 
 //   Icon
 .btn {
-  color: $white !important;
-  border: 1px solid $white !important;
-  padding: 0.45rem 0.75rem !important;
-  border-radius: 50% !important;
+  color: $white;
+  border: 1px solid $white;
+  padding: 0.45rem 0.75rem;
+  border-radius: 50%;
 
   &:hover {
-    color: $white !important;
+    color: $white;
   }
 
   &:focus {
-    box-shadow: none !important;
+    box-shadow: none;
   }
 }
 

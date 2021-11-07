@@ -1,17 +1,17 @@
 .card {
-  border: none !important;
+  border: none;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
 
 .card-img-top {
-  border-top-left-radius: 0 !important;
-  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .card-body {
-  padding: 0 !important;
-  padding-top: 1rem !important;
+  padding: 0;
+  padding-top: 1rem;
 }
 
 .card-title {
@@ -24,9 +24,9 @@
 }
 
 .badge {
-  font-size: $font-size-small !important;
-  font-weight: $font-weight-light !important;
-  color: $red !important;
+  font-size: $font-size-small;
+  font-weight: $font-weight-light;
+  color: $red;
 }
 
 .bg-danger {
@@ -45,29 +45,29 @@ button {
 }
 
 .btn {
-  font-weight: $font-weight-normal !important;
-  font-size: $font-size-subnormal !important;
-  border-radius: 0 !important;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-subnormal;
+  border-radius: 0;
   width: 100%;
   letter-spacing: 0.05rem;
   margin-top: 1rem;
 }
 
 .btn-primary {
-  color: $green !important;
-  background-color: $white !important;
-  border-color: $green !important;
+  color: $green;
+  background-color: $white;
+  border-color: $green;
 
   &:hover {
-    color: $white !important;
-    background-color: $green !important;
-    border-color: $green !important;
+    color: $white;
+    background-color: $green;
+    border-color: $green;
   }
 }
 
 .disabled {
-  background-color: $green-light !important;
-  border-color: $green-light !important;
+  background-color: $green-light;
+  border-color: $green-light;
 }
 
 // Media screen
