@@ -25,9 +25,35 @@ export class AppComponent implements OnInit {
       });
       $("#view-cart").click(function() {
         $(".offcanvas-end").toggle();
+        location.reload();
       });
       $("#checkout").click(function() {
         $(".offcanvas-end").toggle();
+        location.reload();
+      });
+      $("#blog").click(function() {
+        location.reload();
+      });
+      $("#about").click(function() {
+        location.reload();
+      });
+      $("#login").click(function() {
+        location.reload();
+      });
+      $("#beverages").click(function() {
+        location.reload();
+      });
+      $("#granola").click(function() {
+        location.reload();
+      });
+      $("#spreads").click(function() {
+        location.reload();
+      });
+      $("#nuts").click(function() {
+        location.reload();
+      });
+      $("#meals").click(function() {
+        location.reload();
       });
     });
   }

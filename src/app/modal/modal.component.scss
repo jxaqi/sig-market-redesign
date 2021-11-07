@@ -69,12 +69,12 @@
 }
 
 .image {
-    margin: 0 3.8rem;
+  margin: 0 3.8rem;
 }
 
 .descriptions {
-    margin-left: 3.8rem;
-    margin-bottom: 0.1rem;
+  margin-left: 3.8rem;
+  margin-bottom: 0.1rem;
 }
 
 .modal-footer {
@@ -139,6 +139,161 @@ form {
 }
 
 .info {
-    font-size: $font-size-small;
-    margin: 0 3.8rem;
+  font-size: $font-size-small;
+  margin: 0 3.8rem;
+}
+
+// Media screen
+@media only screen and (max-width: 575px) {
+  .image {
+    margin: 0 5.6rem;
+  }
+
+  .descriptions {
+    margin-left: 5.6rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .image {
+    margin: 0 5.4rem;
+  }
+
+  .descriptions {
+    margin-left: 5.4rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .image {
+    margin: 0 5.2rem;
+  }
+
+  .descriptions {
+    margin-left: 5.2rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .image {
+    margin: 0 5rem;
+  }
+
+  .descriptions {
+    margin-left: 5rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .image {
+    margin: 0 4.7rem;
+  }
+
+  .descriptions {
+    margin-left: 4.7rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .image {
+    margin: 0 4.4rem;
+  }
+
+  .descriptions {
+    margin-left: 4.4rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  .image {
+    margin: 0 4.05rem;
+  }
+
+  .descriptions {
+    margin-left: 4.05rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .image {
+    margin: 0 3.7rem;
+  }
+
+  .descriptions {
+    margin-left: 3.7rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 505px) {
+  .image {
+    margin: 0 3.4rem;
+  }
+
+  .descriptions {
+    margin-left: 3.4rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 495px) {
+  .image {
+    margin: 0 3.2rem;
+  }
+
+  .descriptions {
+    margin-left: 3.2rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  .image {
+    margin: 0 2.8rem;
+  }
+
+  .descriptions {
+    margin-left: 2.8rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .image {
+    margin: 0 2.5rem;
+  }
+
+  .descriptions {
+    margin-left: 2.5rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  .image {
+    margin: 0 2.2rem;
+  }
+
+  .descriptions {
+    margin-left: 2.2rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .image {
+    margin: 0 1.85rem;
+  }
+
+  .descriptions {
+    margin-left: 1.85rem;
+    margin-bottom: 0.1rem;
+  }
 }

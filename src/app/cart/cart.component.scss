@@ -197,6 +197,24 @@ img {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .card-left {
+    margin-left: 1.5rem;
+  }
+
+  .card-right {
+    margin-left: 1.4rem;
+  }
+
+  .text-end {
+    text-align: left !important;
+  }
+
+  .form-control {
+    width: 370px;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .card-left {
     margin-left: 1.5rem;
@@ -207,11 +225,10 @@ img {
   }
 
   .text-end {
-      text-align: left !important;
+    text-align: left !important;
   }
 
   .card-right {
-      margin-top: 1rem;
-      margin-left: 1.4rem;
+    margin-left: 1.4rem;
   }
 }
